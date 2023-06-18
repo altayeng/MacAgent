@@ -7,7 +7,7 @@
 
 import Cocoa
 import AVFoundation
-import CocoaMQTT //81. satır görsel gösterme
+import CocoaMQTT
 
 class ViewController: NSViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
     var captureSession: AVCaptureSession!
